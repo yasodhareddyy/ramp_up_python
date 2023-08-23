@@ -1,12 +1,13 @@
 #  Read a String statement from the command line
 
 in_put=input("Enter statement : ")
+input_1=input("Enter new input : ")
 #in_put = "yasodha bharath 123 98761132 yasodha yash"
 
 # Find out total number of characters present in the statement.
-len_input_str = (len(in_put))
+len_input_str = (len(in_put+input_1))
 
-# Find out total number of duplicate Characters in the statement
+# Find out total number of duplicate Characters in the statementH
 duplicate_cont = 0
 for i in set(in_put):
     if in_put.count(i) > 1:
